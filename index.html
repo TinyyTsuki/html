@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Site autoexplicativo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <link rel="shortcut icon" type="image/ico" href="img/coruja.jpeg">
+    </head>
+    <body style="background-color: black;">
+        <header>
+            <a href="https://www.youtube.com/watch?v=tQRHoU6aqvQ">
+                <h1 style="text-align: center;" style="color: crimson;">Site de teste HTML</h1>
+            </a>
+        </header>
+        <hr style="color: white;"/>
+        <main>
+            <h2 style="color: white;">Sintaxes e o que eu aprendi estudando HTML</h2>
+            <br>
+            <article>
+                <h3 style="color: white;">REGRAS E TAGS PARA CRIAÇÃO DE UM DOCUMENTO HTML</h3>
+                <ul style="color: white;">
+                    <li>TODOS AS SINTAXES E TAGS FICAM DENTRO DE "&lt;tag&gt;"</li>
+                    <li> TODAS AS SINTAXES E TAGS TERMINAM COM "&lt;/tag&gt;"</li>
+                    <li>SINTAXES QUE COMEÇAM E TERMINAM NA MESMA TAG SÃO "&lt;tag/&gt;"</li>
+                    <li>COMENTÁRIOS SÃO FEITOS COM &lt;!--comentario--&gt</li>
+                    <li>GERALMENTE O CORPO DA PÁGINA É COMPOSTO POR 3 ESTRUTURAS, O HEADER, O MAIN SECTION E O FOOTER (ONDE GERALMENTE TEM INFORMAÇÕES SOBRE O SITE, LINKS DE REDES SOCIAIS ETC.)</li>
+                    <li>AS 3 ESTRUTURAS SERÃO ABORDADAS NO 3° ARQUIVO DESSE REPOSITÓRIO</li>
+                </ul>
+            </article>
+            <br/>
+            <article>
+                <h3 style="color: white;">TAGS DE CRIAÇÃO DO DOCUMENTO</h3>
+                <ul style="color: white;">
+                    <li>&lt;!DOCTYPE html&gt; = Indica ao navegador que ele deve ler o documento como um arquivo HTML</li>
+                    <li>&lt;html&gt; &lt;/html&gt; = é onde vamos armazenar todas as tags e seções da página</li>
+                    <li>&lt;head&gt; &lt;/head&gt; = onde vamos armazenar informações como a encodificação dos caracteres, titulo da página, descrição da página etc.</li>
+                    <li>&lt;meta&gt; = comando usado para definir os metadados da página como a encodificação dos caracteres e descrição da pagina, é usada na seção &lt;head&gt;</li>
+                    <li>&lt;title&gt; &lt;/title&gt; = onde é armazenado o titulo da página, também usada na seção &lt;head&gt;</li>
+                    <li>&lt;body&gt; &lt;/body&gt; = é a segunda seção da pagina, é onde vamos armazenar as informações principais da página, e onde as três estruturas (header, main e footer) serão armazenadas</li>
+                </ul>
+            </article>
+            <br/>
+            <article>
+                <h3 style="color: white;">TAGS PARA FORMATAÇÃO DE TEXTO</h3>
+                <ul style="color: white;">
+                    <li>&lt;h1-6&gt; &lt;/h1-6&gt; = utilizado para fazer o cabeçalho da página, quanto maior o numero, menor a fonte do cabeçalho</li>
+                    <li>&lt;b&gt; &lt;/b&gt; = deixa a fonte dentro dele em negrito</li>
+                    <li>&lt;i&gt; &lt;/i&gt; = deixa a fonte em itálico</li>
+                    <li>&lt;p&gt; &lt;/p&gt; = faz um paragráfo</li>
+                    <li>&lt;hr/&gt; = faz uma linha horizontal para separar o texto</li>
+                    <li>&lt;br/&gt; = faz uma quebra de linha</li>
+                    <li>&lt;big|small&gt; &lt;/big|small&gt; = deixa o texto maior ou menor</li>
+                    <li>&lt;sub&gt; &lt;/sub&gt; = faz o texto ficar para baixo, como os pequenos numeros usados em elementos quimicos</li>
+                    <li>&lt;sup&gt; &lt;/sup&gt; = faz o texto ficar para cima, como potencias em um calculo matemático</li>
+                    <li>>&lt;pre&gt; &lt;/pre&gt; = preserva o jeito que o texto é exibido no código e exibe da mesma forma</li>
+                </ul>
+            </article>
+            <br/>
+            <article>
+                    <h3 style="color: white;">TAGS DE CUSTOMIZAÇÃO DE TEXTO (essas tags contém declarações de estilização em CSS, portanto não serão aprofundadas aqui)</h3>
+                    <p style="color: white;"> todas as sintaxes podem receber um complemento de estilo para mudar suas cores e estilos
+                    O complemento é o comando STYLE, um exemplo em que isso seria usado é para mudar a cor do texto, ou de fundo por exemplo:
+                    </p>
+                    <p style="color: white;">
+                        &lt;h1 style="color: Red"&gt; Teste &lt;/h1&gt; ou &lt;body style="background-color: black"&gt; &lt;/body&gt;
+                    </p>
+            </article>
+            <br/>
+            <article>
+                <h3 style="color: white;">TAGS PARA ORGANIZAR O CÓDIGO (não são necessárias, porém simplifica o ambiente de trabalho)</h3>
+                <ul style="color: white;">
+                    <li>&lt;header&gt; &lt;/header&gt; = mais uma vez utilizado para fazer o cabeçalho da página</li>
+                    <li>&lt;nav&gt; &lt;/nav&gt; = usado no header como um elemento de navegação, um exemplo é colocar diferentes links usados no site dentro dessa tag</li>
+                    <br>
+                    <li>&lt;main&gt; &lt;/main&gt; = onde o principal conteudo do site costuma estar</li>
+                    <li>&lt;article&gt; &lt;/article&gt; = usado no main, é feito para fazer um artigo. usado para conter textos, pode conter varios paragrafos, usado para indicar cada artigo de um site</li>
+                    <br>
+                    <li>&lt;footer&gt; &lt;/footer&gt; = o footer é o "final" da página e geralmente contem elementos como informações do website/empresa, ou links paras redes sociais</li>
+                    <li>&lt;aside&gt; &lt;/aside&gt; = é usado para inserir informações que são exibidas ao usuario, porém não tem ligação direta com o site em questão</li>
+                </ul>
+            </article>
+            <br/>
+            <article>
+                <h3 style="color: white;">TAGS PARA INSERÇÃO DE LINKS, PDFs ou IMAGENS:</h3>
+                <ul style="color: white;">
+                    <li>&lt;a href="link"&gt; &lt;/a&gt; = insere um link que leva a outra página, ou site (não abre uma nova aba) pode levar a links de imagens ou pdfs</li>
+                    <li>&lt;a href="link" target:"_blank"&gt; &lt;/a&gt; = insere um link que leva a outra página, ou site (abre uma nova aba) pode levar a links de imagens ou pdfs</li>
+                    <li>&lt;img src="link da imagem ou arquivo na pasta" alt="descrição da imagem"/&gt; = insere uma imagem no site, imagens podem conter links se estiverem entre as tags &lt;a href&gt;, colocar ALT="descrição da imagem" para no caso de a imagem não carregar</li> 
+                    <li>width/height = definem a largura e altura da imagem, podem ser usados juntos ou apenas 1 deles</li>
+                    <li>&lt;video src="link do video ou arquivo na pasta"&gt; &lt;/video&gt; = cria uma janela de video, mas só pode ser controlada e reproduzida com a tag "controls". Adicionar "Poster="link ou arquivo"" define uma thumbnail ao video</li>
+                    <li>Autoplay e Loop = podem ser adicionados ao video, nomes autoexplicativos</li>
+                </ul>
+            </article>
+        </main>
+    </body>
+</html>
